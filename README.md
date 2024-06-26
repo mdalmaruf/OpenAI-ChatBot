@@ -153,3 +153,6 @@ Run the application again using the following command:
 ```sh
 streamlit run app.py
 ```
+### Reference
+
+The initial idea and guidance for this project were inspired by a YouTube video by Alejandro AO - Software & AI. Watch the full tutorial here: YouTube Video
