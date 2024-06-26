@@ -155,4 +155,4 @@ streamlit run app.py
 ```
 ### Reference
 
-The initial idea and guidance for this project were inspired by a YouTube video by Alejandro AO - Software & AI. Watch the full tutorial here: YouTube Video
+The initial idea and guidance for this project were inspired by a YouTube video by Alejandro AO - Software & AI. Watch the full tutorial here: [YouTube Video](https://www.youtube.com/watch?v=zKGeRWjJlTU&ab_channel=AlejandroAO-Software%26Ai)
