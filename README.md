@@ -1,7 +1,7 @@
 # Building a Streamlit Application with OpenAI Integration
 
 This article will guide you through creating a Streamlit application in three parts. First, we'll build a basic Streamlit chat application with a static AI response. Then, we'll enhance the application to provide dynamic responses using OpenAI's GPT-3.5 model. 
-
+![Chatbot Interface](/UI.JPG)
 ## Prerequisites
 
 Ensure you have the following installed:
