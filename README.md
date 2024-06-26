@@ -30,10 +30,10 @@ After that, you can install these dependencies using `pip`:
 ```sh
 # pip install streamlit openai langchain-openai python-dotenv
 ```
-###Part 1: Creating a Basic Streamlit Application
+### Part 1: Creating a Basic Streamlit Application
 We'll start by creating a basic Streamlit application that accepts user input and responds with a static message.
 
-####Step 1: Set Up the Environment
+#### Step 1: Set Up the Environment
 Create a file named app.py and add the following code:
 ```python
 import streamlit as st
@@ -65,25 +65,25 @@ if user_query is not None and user_query != "":
         st.session_state.chat_history.append(AIMessage(ai_response))
 ```
 
-####Step 2: Run the Application
+#### Step 2: Run the Application
 Run the application using the following command:
 ```sh
 streamlit run app.py
 ```
 This will start a local Streamlit server and open your default web browser to display the chat application. You can enter messages, and the AI will always respond with "I don't know".
 
-###Part 2: Integrating OpenAI for Dynamic Responses
+### Part 2: Integrating OpenAI for Dynamic Responses
 Next, we'll enhance the application to provide dynamic responses using OpenAI's GPT-3.5 model.
 
-####Step 1: Obtain an OpenAI API Key
+#### Step 1: Obtain an OpenAI API Key
 Sign up at OpenAI and generate an API key. Save this key, as you'll need it to authenticate your requests.
 
-####Step 2: Set Up Environment Variables
+#### Step 2: Set Up Environment Variables
 Create a .env file in your project directory and add your OpenAI API key:
 ```sh
 OPENAI_API_KEY=your-openai-api-key
 ```
-Step 3: Load Environment Variables
+#### Step 3: Load Environment Variables
 Update your app.py to load the environment variables and use the OpenAI API key:
 ```python
 import os
@@ -148,7 +148,7 @@ if user_query is not None and user_query != "":
         st.markdown(ai_response)
         st.session_state.chat_history.append(AIMessage(ai_response))
 ```
-####Step 4: Run the Enhanced Application
+#### Step 4: Run the Enhanced Application
 Run the application again using the following command:
 ```sh
 streamlit run app.py
