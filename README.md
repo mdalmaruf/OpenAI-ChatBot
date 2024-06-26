@@ -11,7 +11,21 @@ Ensure you have the following installed:
 - LangChain
 - dotenv
 
-You can install these dependencies using `pip`:
+## Set Up the Virtual Environment
+
+1. **Create a Virtual Environment**:
+   Open VS Code and open a terminal. Run the following command to create a new virtual environment:
+
+    ```sh
+    conda create -p venv python=3.9
+    ```
+
+2. **Activate the Virtual Environment**:
+    ```sh
+    conda activate venv
+    ```
+
+After that, you can install these dependencies using `pip`:
 
 ```sh
 # pip install streamlit openai langchain-openai python-dotenv
